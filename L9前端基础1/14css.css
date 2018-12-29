@@ -1,0 +1,22 @@
+a {
+    text-decoration: none;
+}
+a:link{
+    /*普通状态*/
+    color: black;
+    background-color: yellow;
+}
+
+
+a:hover {
+    /*鼠标悬停*/
+    color: red;
+}
+a:visited {
+    /*访问后的链接*/
+    color: #999999;
+}
+a:active {
+    /*激活状态*/
+    color: green;
+}

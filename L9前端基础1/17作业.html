@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.header {
+    background-color: #ddf188;
+    padding: 20px;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #cf62f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #3876dd;
+    color: #3dc781;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Header</h1>
+  <p>R effect.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Column</h2>
+    <p>.</p>
+  </div>
+  <div class="column">
+    <h2>Column</h2>
+    <p>.</p>
+  </div>
+  <div class="column">
+    <h2>Column</h2>
+    <p>.</p>
+  </div>
+</div>
+
+</body>
+</html>

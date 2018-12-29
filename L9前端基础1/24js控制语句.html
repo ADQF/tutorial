@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>JS控制语句</title>
+    <script>
+        //if 语句
+        var score = 70;
+        if (score >= 60){
+            alert("及格");
+            console.log("及格")  //js控制台输出信息
+        }
+        else if (score >= 70){
+
+        }
+        else {
+
+        }
+
+        // switch语句
+        var level = 1;
+        var msg = "";
+        switch(level) {
+            case 1:
+                msg = "傻屌";
+            case 2:
+                msg = "二级傻屌";
+            default:
+                msg = "三级傻屌";
+        }
+        console.log(msg);
+
+        //for 循环
+        for(var i=0; i<10; i++){
+            console.log(i)
+            document.write(i + "<br>")
+        }
+
+        //while循环
+        var i = 0;
+        while (i<10){
+            console.log(i);
+            i++;
+        }
+
+        // break continue
+       for(var i=0; i<10; i++){
+           if (i==3){continue};
+           document.write(i+"<br>");
+            // break;
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

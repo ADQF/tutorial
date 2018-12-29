@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>js事件</title>
+    <script>
+        function aaa() {
+            alert("hello world")
+        }
+    </script>
+</head>
+<body>
+<button onclick="javascript:aaa();">点我</button>
+
+    <div style="width: 200px;height: 50px;background-color: #96dbff"onmouseover="this.innerHTML='hello';" onmouseout="this.innerHTML='';">
+
+    </div>
+
+    <div id="idname" name="">通过id获取元素 吾是星空下无敌</div>
+    <div class="classname">通过class  名获取元素</div>
+    <div class="classname">通过class  名获取元素</div>
+
+
+    <script>
+        div = document.getElementById("idname")
+        div.style.backgroundColor = "red";
+
+        divs=document.getElementsByClassName("classname")
+        console.log(divs)
+        divs[0].innerHTML = "hello";
+
+        document.getElementsByName("");
+
+        //创建
+        //div.childNodes
+        mydiv = document.createElement("div")
+        mydiv.style.height="300px";
+        mydiv.style.backgroundColor="blue";
+        div.appendChild(mydiv);
+    </script>
+</body>
+</html>
+<!--
+事件：event 鼠标或热键引发的动作。例如鼠标单击、鼠标悬停。
+
+常用事件：
+onclick  单击
+ondbclick  double  双击
+onfocus   获得焦点。 当用户点击一个表单中的input框准备输入时。
+onblur  失去焦点 。  从一个表单中一个input框离开时。
+onmouseover  鼠标移到某个元素上
+onmouseout   鼠标移出某个元素
+onkeypress  键盘按键按下并松开
+-->
+
+<!--
+DOM
+回顾2html图例，引入以下概念。
+DOM：document object model 文档对象模型。整个网页html标签，下面有head、body标签，body标签下包含p、h1、img等。整个网页是文档树。每一个元素是一个节点。body节点是p、h1节点的父节点，p节点是body节点子节点child。
+
+js操作dom场景：
+动态弹出对话框，子网页，改变样式，改变菜单，增加交互体验。

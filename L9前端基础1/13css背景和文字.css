@@ -1,0 +1,20 @@
+body {
+    /*background: #333333 url();*/
+    background-color: #cfff7a;
+    background-image: url("智游logo.jpg");
+    background-repeat: repeat-x;
+    background-position: right;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+p {
+    font-family: "Microsoft YaHei", sans-serif;
+    color: #000;
+    font-size: 15px;
+
+    text-align: left;
+    text-indent: 10px;
+    text-decoration:underline;    /*下划线*/
+    font-weight:900;     /*字体加粗*/
+    text-shadow: 5px 5px 5px #FF0000;     /*字体阴影*/
+}

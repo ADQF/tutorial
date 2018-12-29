@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Css基础</title>
+    <link href="11css基础.css" rel="stylesheet" type="text/css">
+
+    <style>
+        body{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body style="background-color: #ff0000;">
+    <h1>Hello World</h1>
+</body>
+</html>
+
+<!--
+css介绍：cascading stylesheet，层叠样式表，专门控制html网页元素的外观样式，包括大小、颜色、布局等方面。
+
+语法：选择器 {css表达式} 。大括号表示语句块，css表达式；号结尾。
+行内样式；标签内写style属性，属性值写css语句。优点是测试和书写方便，缺点是写多之后页面耦合度高，可读性差，不好维护。
+内部样式：style标签，一般写在head标签下。
+外部样式：先写一个.css文件，然后再html页面中引用。link标签引用，rel属性relation。优点，耦合度低，易于维护，适合css语句多的情况。
+
+样式优先级：从高到低。  行内样式 > 内部样式 > 外部引用
+
+场景：行内样式和内部样式适合css代码少，html简单的情况；外部样式css语句多，适合大项目。
+-->
