@@ -11,7 +11,7 @@
       </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="test" uuid="161abb24-0fbc-4ae5-b80c-a430d6824db1">
-      <driver-ref>sqlite.xerial</driver-ref>
+      <driver-ref>976099cf-2e5a-4c65-8584-713522933195</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:D:\pycharm\tutorial\L10数据库基础和sqlite\test.db</jdbc-url>
@@ -30,19 +30,6 @@
     <data-source source="LOCAL" name="test@localhost" uuid="60c0e21d-546e-4e52-bd9f-f0df8c5056ea">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
-      <driver-properties>
-        <property name="autoReconnect" value="true" />
-        <property name="zeroDateTimeBehavior" value="convertToNull" />
-        <property name="tinyInt1isBit" value="false" />
-        <property name="characterEncoding" value="utf8" />
-        <property name="characterSetResults" value="utf8" />
-        <property name="yearIsDateType" value="false" />
-      </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="QQDBS@localhost" uuid="a89b8726-af52-4815-876a-08094fe7172f">
-      <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
       <driver-properties>

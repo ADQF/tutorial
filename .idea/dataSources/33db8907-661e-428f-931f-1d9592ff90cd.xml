@@ -89,7 +89,6 @@
     <index id="29" parent="9" name="sqlite_autoindex_student_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="30" parent="9">
@@ -159,7 +158,6 @@
     <index id="45" parent="12" name="sqlite_autoindex_table_name_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="46" parent="12">

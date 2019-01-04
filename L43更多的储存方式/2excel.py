@@ -13,3 +13,9 @@ for index, row in enumerate(sheet1):
     if index <= 0:
         continue
     print('第{}个学生，学生姓名{}'.format(index, row[1]))
+
+
+
+sheet2 = [['小明',13],['小明',13]]
+save_data(data=sheet2, afile='2writeexcel.xlsx')
+
