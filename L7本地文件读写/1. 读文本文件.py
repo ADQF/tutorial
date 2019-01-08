@@ -52,6 +52,7 @@ open：open(文件路径/文件名，模式) 。
 file = open('english_ascii.txt', 'r')
 
 content = file.readlines()
+print(file)
 print(type(content))
 # print(content)
 for line in content:

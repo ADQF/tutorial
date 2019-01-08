@@ -15,6 +15,5 @@ cursor = db.cursor()
 cursor.execute("SELECT * FROM comment;")
 print(cursor.fetchall())
 
-
 # 关闭数据库连接
 db.close()
