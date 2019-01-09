@@ -2,7 +2,7 @@ import yagmail
 import os
 
 sender = '3342899060@qq.com'
-password = 'tuhtbcyhpxgscicc'
+password = 'imzlhndcfngzcjja'
 target = '1770323960@qq.com'
 
 yag = yagmail.SMTP(user=sender, password=password, host='smtp.qq.com', port=465, smtp_ssl=True)
