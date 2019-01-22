@@ -1,6 +1,7 @@
 from pymongo import MongoClient
 from pprint import pprint   # 格式化输出json
 
+
 class Connect(object):
     @staticmethod
     def get_connection():

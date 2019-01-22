@@ -1,2 +1,4 @@
-讲义git仓库主页 https://code.aliyun.com/zzdxyz/tutorial
-群文件中的不在更新   讲义git仓库 git@code.aliyun.com:zzdxyz/tutorial.git
+锟斤拷锟斤拷git锟街匡拷锟斤拷页 https://code.aliyun.com/zzdxyz/tutorial
+群锟侥硷拷锟叫的诧拷锟节革拷锟斤拷   锟斤拷锟斤拷git锟街匡拷       鍏嬮殕浠ｇ爜锛歡it clone git@code.aliyun.com:zzdxyz/tutorial.git
+
+浜戞湇鍔″櫒锛氳繙绋嬭繛鎺ュ瘑鐮侊細 966784
